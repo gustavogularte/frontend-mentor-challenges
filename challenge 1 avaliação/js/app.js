@@ -3,7 +3,7 @@ const card_content_1 = document.querySelector('.card-content-1');
 const card_content_2 = document.querySelector('.card-content-2');
 const ratingBtns = document.querySelectorAll('.rating-btn');
 const score = document.querySelector('.score');
-let stars_score = 3
+let stars_score = 0
 
 
 submit_btn.addEventListener('click', onSubmit);
